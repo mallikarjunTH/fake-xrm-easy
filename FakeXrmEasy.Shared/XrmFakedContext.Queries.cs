@@ -30,6 +30,8 @@ namespace FakeXrmEasy
                     assembly = Assembly.GetExecutingAssembly();
                 }
 
+
+
                 /* This wasn't building within the CI FAKE build script...
                 var subClassType = assembly.GetTypes()
                         .Where(t => typeof(Entity).IsAssignableFrom(t))
